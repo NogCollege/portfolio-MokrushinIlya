@@ -1,6 +1,6 @@
- body {
+body {
    font-family: 'Arial', sans-serif;
-   color: #333;
+   color: #211f92;
  }
 
  .container-custom {
@@ -10,8 +10,8 @@
 
  /* Стили для первого блока */
  .profile-section {
-   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-   color: white;
+   background: linear-gradient(135deg, #2c347c 0%, #4240c5 100%);
+   color: rgb(166, 199, 212);
    padding: 60px 0;
    text-align: center;
  }
@@ -27,7 +27,7 @@
  .profile-img {
    width: 200px;
    height: 200px;
-   border: 5px solid rgba(255, 255, 255, 0.3);
+   border: 5px solid rgba(39, 39, 39, 0.3);
    margin: 0 auto 30px;
  }
 
@@ -45,7 +45,7 @@
  .profile-info li {
    margin-bottom: 10px;
    padding: 8px 0;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   border-bottom: 1px solid rgba(67, 197, 214, 0.2);
  }
 
  .profile-info li:last-child {
@@ -55,28 +55,28 @@
  /* Стили для блока навыков */
  .skills-section {
    padding: 80px 0;
-   background-color: #f8f9fa;
+   background-color: #46a7b8;
  }
 
  .skill-item {
-   background: white;
+   background: rgb(89, 128, 173);
    border-radius: 8px;
    padding: 20px;
    text-align: center;
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+   box-shadow: 0 5px 15px rgba(21, 58, 179, 0.05);
    transition: transform 0.3s, box-shadow 0.3s;
    height: 100%;
  }
 
  .skill-item:hover {
    transform: translateY(-5px);
-   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 10px 25px rgba(25, 12, 207, 0.1);
  }
 
  .skill-icon {
    font-size: 2.5rem;
    margin-bottom: 15px;
-   color: #667eea;
+   color: #2732cc;
  }
 
  /* Стили для блока работ */
@@ -101,7 +101,7 @@
    border: none;
    border-radius: 8px;
    overflow: hidden;
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+   box-shadow: 0 5px 15px rgba(70, 70, 70, 0.08);
    height: 100%;
  }
 
@@ -140,15 +140,15 @@
 
  .portfolio-links a {
   text-decoration: none;
-  color:#858585;
-  border-bottom: 1px solid #858585;
+  color:#3a3a3a;
+  border-bottom: 1px solid #757575;
   margin-bottom: 10px;
   transition: .5s;
  }
 
  .portfolio-links a:hover {
-  border-bottom: 1px solid #375acf;
-  color:#375acf;
+  border-bottom: 1px solid #949494;
+  color:#464646;
   /* border-top: 1px solid #858585; */
  }
 
@@ -177,5 +177,5 @@
  }
 
  .social-links a:hover {
-   color: #667eea;
+   color: #923c14;
  }
